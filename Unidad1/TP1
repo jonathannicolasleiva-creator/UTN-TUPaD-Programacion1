@@ -1,0 +1,102 @@
+#1) Crear un programa que imprima por pantalla el mensaje: “Hola Mundo!”.
+#print("Hola mundo!")
+
+#2)Crear un programa que pida al usuario su nombre e imprima por pantalla un saludo usando
+#el nombre ingresado
+#nombre = input("Por favor ingrese su nombre:")
+#print (f"hola {nombre}, buenos dias!")
+
+#3) Crear un programa que pida al usuario su nombre, apellido, edad y lugar de residencia e
+#imprima por pantalla una oración con los datos ingresados
+#nombre = input ("Por favor ingrese su nombre:")
+#apellido = input ("Ingrese su apellido: ")
+#edad = input ("Ingrese su edad: ")
+#Residencia = input ("Ingrese su pais de residencia: ")
+#print (f"mi nombre es ¨{nombre} {apellido}, tengo ¨{edad}, y vivo en {Residencia}")
+
+#4) Crear un programa que pida al usuario el radio de un círculo e imprima por pantalla su área y
+#su perímetro.
+#radio = input ("Por favor ingrese el radio del circulo: ")
+#radio = float (radio)
+#pi = 3.14
+#area = pi * radio ** 2
+#print (f"El area del circulo es {area} ")
+
+#5) Crear un programa que pida al usuario una cantidad de segundos e imprima por pantalla a
+#cuántas horas equivale
+#segundos = input ("Por favor ingrese la cantidad de segundos: ")
+#segundos = int (segundos)
+#horas = segundos / 3600
+#horas = float (horas)
+#print (f"los {segundos} segundos equivalen a {horas} horas.")
+
+#6) Crear un programa que pida al usuario un número e imprima por pantalla la tabla de
+#multiplicar de dicho número
+#numero = input ("Por favor ingrese un numero: ")
+#numero = int (numero)
+
+#num1 = numero * 1
+#num2 = numero * 2
+#num3 = numero *3
+#num4 = numero * 4
+#num5 = numero * 5
+#num6 = numero *6
+#num7 = numero * 7
+#num8 = numero * 8
+#num9 = numero * 9
+#num10 = numero * 10
+#print ("la tabla de multimplicar del numero ingresado es:")
+#print (f"{numero} x 1  ={num1}")
+#print (f"{numero} x 2  ={num2}")
+#print (f"{numero} x 3  ={num3}")
+#print (f"{numero} x 4  ={num4}")
+#print (f"{numero} x 5  ={num5}")
+#print (f"{numero} x 6  ={num6}")
+#print (f"{numero} x 7  ={num7}")
+#print (f"{numero} x 8  ={num8}")
+#print (f"{numero} x 9  ={num9}")
+#print (f"{numero} x 10 ={num10}")
+
+#7) Crear un programa que pida al usuario dos números enteros distintos del 0 y muestre por
+#pantalla el resultado de sumarlos, dividirlos, multiplicarlos y restarlos.
+#num1 = input ("Ingrese un numero distinto de cero ")
+#num1 = int (num1)
+#num2 = input ("ingrese otro numero distinto de cero ")
+#num2 = int (num2)
+#suma = num1 + num2
+#division = num1 / num2
+#producto = num1 * num2
+#resta = num1 - num2
+#print (f"el resultado de la suma del primer numero y el segundo es {suma},")
+#print (f"el resultado de la division del primer numero y el segundo es {division},")
+#print (f"el resultado del producto del primer numero y el segundo es {producto},")
+#print (f"el resultado de la resta del primer numero y el segundo es {resta},")
+
+#8) Crear un programa que pida al usuario su altura y su peso e imprima por pantalla su índice
+#de masa corporal
+#peso = input ("Por favor ingrese su peso ")
+#peso = float (peso)
+#print (f"usted a ingresado {peso} kg. ")
+#altura = input ("Por favor ingrese su altura ")
+#altura = float (altura)
+#print (f"usted a ingresado {altura} metros ")
+#imc = peso / altura ** 2
+#print (f"Su indice de masa corporal es {imc}")
+
+#9) Crear un programa que pida al usuario una temperatura en grados Celsius e imprima por
+#pantalla su equivalente en grados Fahrenheit. Tener en cuenta la siguiente equivalencia:
+#celsius = input ("Por favor ingrese la tempreatura en grados Celsius ")
+#celsius = float (celsius)
+#fahren = 9/5 * celsius + 32
+#print (f"{celsius} grados Celsius equivalen a {fahren} grados Fahrenheit.")
+
+#10) Crear un programa que pida al usuario 3 números e imprima por pantalla el promedio de
+#dichos números.
+#num1 = input ("Por favor ingrese el primer numero ")
+#num1 = float (num1)
+#num2 = input ("Por favor ingrese el segundo numero ")
+#num2 = float (num2)
+#num3 = input ("Por favor ingrese el tercer numero ")
+#num3 = float (num3)
+#promedio = (num1 + num2 + num3) / 3
+#print (f"el promedio de {num1}, {num2} y {num3} es: {promedio}.")
